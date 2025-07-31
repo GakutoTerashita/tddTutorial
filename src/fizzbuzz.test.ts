@@ -36,5 +36,14 @@ describe('数を文字列に変換する', () => {
       expect(fizzbuzz(5)).toBe('Buzz');
     });
   });
+
+  describe('3と5の両方の倍数を入力したら数の代わりにFizzBuzzを返す', () => {
+    it('15を入力したらFizzBuzzを返す', () => {
+      // 準備
+
+      // 実行 & 検証
+      expect(fizzbuzz(15)).toBe('FizzBuzz');
+    });
+  });
 })
 
