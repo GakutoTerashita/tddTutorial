@@ -1,3 +1,3 @@
-export const fizzbuzz = () => {
+export const fizzbuzz = (n: number) => {
     return "1";
 };
